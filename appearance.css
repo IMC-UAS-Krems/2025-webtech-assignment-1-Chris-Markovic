@@ -1,12 +1,20 @@
-h1{
+body{
+    background-color:#fdcffa;
+}
+.navbar{
+    position: sticky;
+}
+#Main-headline{
     text-align: center;
+    color:#4E56C0;
 }
 .navbar ul{
     list-style-type: none;
-    background-color: cadetblue;
+    background-color:#D78FEE;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    
 }
 .navbar a{
     color: white;
@@ -16,8 +24,72 @@ h1{
     text-align: center;
 }
 .navbar a:hover{
-    background-color: darkslategrey;
+    background-color:blueviolet;
+    border: 1px solid;
 }
 .navbar li{
     float: left;
+
+}
+
+.indexintro{
+    text-align: center;
+    
+}
+
+.contents{
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+}
+.contents ul{
+    list-style-type: none;
+    text-align: left;
+    
+}
+
+.Headline{
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    text-align: center;
+    background-color:aqua;
+    border: 15px solid aqua;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.container1{
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    background-color:deeppink ;
+    border: 20px solid deeppink;
+    margin: 5px;
+    border-radius: 100px;
+}
+.container1 a:hover{
+    color: aqua;
+}
+.container2{
+    position: absolute;
+    left: 400px;
+    top: 520px;
+    background-color: purple;
+    border: 20px solid purple;
+    margin: 5px;
+    border-radius: 100px;
+}
+.container3{
+    position: absolute;
+    left: 150px;
+    top: 750px;
+    background-color:lightcoral;
+    border: 20px solid lightcoral;
+    margin: 5px;
+    border-radius: 100px;
+}
+.image1{
+    border-radius: 80px;
+    border: 5px solid white;
 }
