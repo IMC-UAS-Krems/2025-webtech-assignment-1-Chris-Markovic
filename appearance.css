@@ -8,6 +8,14 @@ body{
     text-align: center;
     color:#4E56C0;
 }
+footer{
+    text-align: center;
+    padding: 1px;
+    background-color: blueviolet;
+    color: aliceblue;
+    position:relative;
+    
+}
 .navbar ul{
     list-style-type: none;
     background-color:#D78FEE;
@@ -34,7 +42,7 @@ body{
 
 .indexintro{
     text-align: center;
-    
+    color: blueviolet;
 }
 
 .contents{
@@ -47,6 +55,9 @@ body{
     list-style-type: none;
     text-align: left;
     
+}
+.contents li{
+    color: beige;
 }
 .contents ul a:hover{
     color: lightblue;
@@ -117,4 +128,42 @@ body{
 .imageCV{
     border: 5px solid black;
     border-radius: 5px;
+}
+.Galleryimages img{
+    width: 428px;
+    height: auto;
+    border: 10px solid;
+    border-radius: 20px;
+}
+.Galleryimages{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px;
+    border: 10px dotted red;
+}
+.contactintro{
+    text-align: center;
+    font-size: xx-large;
+    color: blueviolet;
+}
+.onlineinquiry{
+    position: absolute;
+    left: 200px
+}
+.onlineinquiry p{
+    font-size: xx-large;
+    position: relative;
+    left: 200px;
+    
+}
+
+.contactinfo{
+    position: absolute;
+    border: 2px solid white;
+    right: 200px
+}
+
+.contactinfo p,h2,h3{
+    text-align: center;
 }
