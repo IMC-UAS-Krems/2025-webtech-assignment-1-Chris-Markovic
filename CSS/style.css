@@ -1,5 +1,5 @@
 body{
-    background-color:#fdcffa;
+    background-color: #EDDFE0;
 }
 .navbar{
     position: sticky;
@@ -11,14 +11,14 @@ body{
 footer{
     text-align: center;
     padding: 1px;
-    background-color: blueviolet;
+    background-color: #705C53;
     color: aliceblue;
     position:relative;
     
 }
 .navbar ul{
     list-style-type: none;
-    background-color:#D78FEE;
+    background-color:#B99470;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -32,7 +32,7 @@ footer{
     text-align: center;
 }
 .navbar a:hover{
-    background-color:blueviolet;
+    background-color: #A0937D;
     border: 1px solid;
 }
 .navbar li{
@@ -42,7 +42,7 @@ footer{
 
 .indexintro{
     text-align: center;
-    color: blueviolet;
+    color: #795757;
 }
 
 .contents{
@@ -51,13 +51,21 @@ footer{
     padding: 20px;
     
 }
+.introduction{
+    text-align: left;
+    padding-left: 100px;
+}
+.introduction img{
+    width: 200px;
+    height: auto;
+}
 .contents ul{
     list-style-type: none;
     text-align: left;
     
 }
 .contents li{
-    color: beige;
+    color: #795757;
 }
 .contents ul a:hover{
     color: lightblue;
@@ -68,8 +76,7 @@ footer{
     left: 300px;
     top: 150px;
     text-align: center;
-    background-color:aqua;
-    border: 15px solid aqua;
+    color: #795757;
     margin: 5px;
     border-radius: 10px;
 }
@@ -78,8 +85,8 @@ footer{
     position: absolute;
     left: 50px;
     top: 350px;
-    background-color:deeppink ;
-    border: 20px solid deeppink;
+    background-color: #503C3C ;
+    border: 20px solid  #503C3C ;
     margin: 5px;
     border-radius: 100px;
 }
@@ -90,8 +97,8 @@ footer{
     position: absolute;
     left: 400px;
     top: 520px;
-    background-color: purple;
-    border: 20px solid purple;
+    background-color:  #503C3C ;
+    border: 20px solid  #503C3C ;
     margin: 5px;
     border-radius: 100px;
 }
@@ -99,8 +106,8 @@ footer{
     position: absolute;
     left: 150px;
     top: 750px;
-    background-color:lightcoral;
-    border: 20px solid lightcoral;
+    background-color: #503C3C ;
+    border: 20px solid  #503C3C ;
     margin: 5px;
     border-radius: 100px;
 }
@@ -140,12 +147,12 @@ footer{
     flex-wrap: wrap;
     gap: 30px;
     margin: 20px;
-    border: 10px dotted red;
+    border: 10px dotted #503C3C;
 }
 .contactintro{
     text-align: center;
     font-size: xx-large;
-    color: blueviolet;
+    color: #503C3C;
 }
 .onlineinquiry{
     position: absolute;
