@@ -91,7 +91,7 @@ footer{
     border-radius: 100px;
 }
 .container1 a:hover{
-    color: aqua;
+    color: lightblue;
 }
 .container2{
     position: absolute;
@@ -136,6 +136,8 @@ footer{
     border: 5px solid black;
     border-radius: 5px;
 }
+
+
 .Galleryimages img{
     width: 428px;
     height: auto;
@@ -163,6 +165,9 @@ footer{
     position: relative;
     left: 200px;
     
+}
+.introduction a:hover{
+    color: aqua;
 }
 
 .contactinfo{
