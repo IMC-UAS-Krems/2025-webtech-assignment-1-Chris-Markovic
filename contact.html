@@ -4,7 +4,7 @@
 <head>
     <title>Christian Markovič</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <header>
@@ -24,44 +24,46 @@
             <b>Feel free to contact me!</b>
         </p>
     </section>
-    <!--https://www.w3schools.com/html/html_forms.asp-->>
-    <form class="onlineinquiry">
-        <fieldset>
-            <legend style="font-size: x-large;"><b><u> Online inquiry</u></b></legend>
+    <!--https://www.w3schools.com/html/html_forms.asp-->
+    <div class="wrapper-contact">
+        <form class="onlineinquiry">
+            <fieldset>
+                <legend style="font-size: x-large;"><b><u> Online inquiry</u></b></legend>
+                <br>
+                <label for="fname">Your first name:</label>
+                <input id='fname' type="text" name="fname" required>
+                <label for="lname">Your last name:</label>
+                <input id='lname' type="text" name="lname" required>
+                <br>
+                <br>
+                <label for="email">Your E-mail:</label>
+                <input id='email' type="email" name="email" required>
+                <label for="phone">Your phone number:</label>
+                <input id='phone' type="tel" name="phone" required>
+    
+                <br>
+                <br>
+                <label for="reason">Reason for contacting:</label>
+                <input id='reason' type="text" name="reason" required>
+                <br>
+                <br>
+                <label for="message">Write your message:</label>
+                <textarea name="message" rows="5" columns="40">
+                </textarea>
+            </fieldset>
             <br>
-            <label for="fname">Your first name:</label>
-            <input id='fname' type="text" name="fname" required>
-            <label for="lname">Your last name:</label>
-            <input id='lname' type="text" name="lname" required>
             <br>
-            <br>
-            <label for="email">Your E-mail:</label>
-            <input id='email' type="email" name="email" required>
-            <label for="phone">Your phone number:</label>
-            <input id='phone' type="tel" name="phone" required>
-
-            <br>
-            <br>
-            <label for="reason">Reason for contacting:</label>
-            <input id='reason' type="text" name="reason" required>
-            <br>
-            <br>
-            <label for="message">Write your message:</label>
-            <textarea name="message" rows="5" columns="40">
-            </textarea>
-        </fieldset>
-        <br>
-        <br>
-        <button type="button" style="position: relative;left: 200px;">Submit</button>
-    </form>
-    <div class="contactinfo">
-        <h2><u>Contact Information</u></h2>
-        <h3>Email:</h3>
-        <p>kikochristian.markovic@gmail.com</p><br>
-        <h3>Phone number:</h3>
-        <p>+421 904 406 627</p><br>
-        <h3> Adress: </h3>
-        <p>Stachanovská 54, 821 05 ,Bratislava</p>
+            <button type="button" style="position: relative;left: 200px;">Submit</button>
+        </form>
+        <div class="contactinfo">
+            <h2><u>Contact Information</u></h2>
+            <h3>Email:</h3>
+            <p>kikochristian.markovic@gmail.com</p><br>
+            <h3>Phone number:</h3>
+            <p>+421 904 406 627</p><br>
+            <h3> Adress: </h3>
+            <p>Stachanovská 54, 821 05 ,Bratislava</p>
+        </div>
     </div>
     <footer style="top: 500px;">
         <p>Author: Christian Markovič</p>

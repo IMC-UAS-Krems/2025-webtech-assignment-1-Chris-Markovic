@@ -1,19 +1,22 @@
 body{
     background-color: #EDDFE0;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 .navbar{
     position: sticky;
+    top: 0;
 }
 #Main-headline{
     text-align: center;
-    color:#4E56C0;
+    color: #795757;
 }
 footer{
     text-align: center;
-    padding: 1px;
+    padding: 10px;
     background-color: #705C53;
     color: aliceblue;
-    position:relative;
+    margin-top: 40px;
     
 }
 .navbar ul{
@@ -21,6 +24,8 @@ footer{
     background-color:#B99470;
     padding: 0px;
     margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
     overflow: hidden;
     
 }
@@ -44,97 +49,134 @@ footer{
     text-align: center;
     color: #795757;
 }
-
-.contents{
-    display: inline-flex;
-    margin: 10px;
+.cntnt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
     padding: 20px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 400px;
     
 }
+.contents li{
+    color: #795757 ;
+    margin: 12px;
+    max-width: 320px;
+    background: #FFF0D1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
     text-align: left;
-    padding-left: 100px;
+    max-width: 400px;
+    margin: 50px;
+    margin-left: 100px;
 }
 .introduction img{
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
     height: auto;
 }
 .contents ul{
     list-style-type: none;
     text-align: left;
+    padding: 0;
     
 }
 .contents li{
     color: #795757;
+    max-width: 320px;
+    background: #FFF0D1;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
 }
 .contents ul a:hover{
     color: lightblue;
 }
 
 .Headline{
-    position: absolute;
-    left: 300px;
-    top: 150px;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     color: #795757;
     margin: 5px;
     border-radius: 10px;
 }
 
-.container1{
-    position: absolute;
-    left: 50px;
-    top: 350px;
-    background-color: #503C3C ;
-    border: 20px solid  #503C3C ;
-    margin: 5px;
-    border-radius: 100px;
+.container1, .container2, .container3 {
+    background-color: #503C3C;
+    border: 20px solid #503C3C;
+    border-radius: 40px;
+    margin: 20px;
+    margin-top: 10%;
+    padding: 20px;
+    color: blanchedalmond;
+    flex: 1 1 300px;
+    max-width: 400px;
 }
+.about-sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
 .container1 a:hover{
     color: lightblue;
 }
-.container2{
-    position: absolute;
-    left: 400px;
-    top: 520px;
-    background-color:  #503C3C ;
-    border: 20px solid  #503C3C ;
-    margin: 5px;
-    border-radius: 100px;
-}
-.container3{
-    position: absolute;
-    left: 150px;
-    top: 750px;
-    background-color: #503C3C ;
-    border: 20px solid  #503C3C ;
-    margin: 5px;
-    border-radius: 100px;
-}
+
 .image1{
     border-radius: 80px;
     border: 5px solid white;
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: auto;
+
 }
-.cvintro{
+.cvcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.cv-left, .cv-right{
+    flex: 1 1 300px;
+}
+.cvintro, .CVskills, .CVeducation{
     border: 2px solid black;
-    position: absolute;
-    left: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #FFF0D1;
+    margin-top: 20px;
+
 }
-.CVskills{
-    border: 2px solid black;
-    position: absolute;
-    left: 250px;
-    top: 300px;
-}
-.CVeducation{
-    border: 2px solid black;
-    position: absolute;
-    left: 490px;
-    top: 300px;
-}
+
 .imageCV{
+    width: 100%;
+    max-width: 180px;
+    height: auto;
     border: 5px solid black;
-    border-radius: 5px;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -149,16 +191,24 @@ footer{
     flex-wrap: wrap;
     gap: 30px;
     margin: 20px;
-    border: 10px dotted #503C3C;
+    
 }
 .contactintro{
     text-align: center;
     font-size: xx-large;
     color: #503C3C;
 }
-.onlineinquiry{
-    position: absolute;
-    left: 200px
+.onlineinquiry, .contactinfo{
+    position: static;
+    max-width: 600px;
+    margin: 20px auto;
+    
+}
+.wrapper-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 .onlineinquiry p{
     font-size: xx-large;
@@ -170,12 +220,46 @@ footer{
     color: aqua;
 }
 
-.contactinfo{
-    position: absolute;
-    border: 2px solid white;
-    right: 200px
-}
 
 .contactinfo p,h2,h3{
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .about-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Galleryimages img{
+        max-width: 250px;
+        border-width: 6px;
+    }
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .container1, .container2, .container3 {
+        max-width: 90%;
+    }
+    .introduction {
+        padding-left: 20px;
+    }
+    .cntnt {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introduction {
+        padding-left: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .introduction img {
+        margin: 0 auto;
+    }
 }
